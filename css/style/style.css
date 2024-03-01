@@ -18,3 +18,10 @@ h1,h2{
 .highlight{
     color: red;
 }
+
+.ind{
+    text-indent: 4rem;
+    text-align: justify;
+    width: 50%;
+    font-family: cursive;
+}
