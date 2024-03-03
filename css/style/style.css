@@ -29,7 +29,7 @@ p{
     margin-top: 100px;
 } */
 
-
+/* 
 ul{
     list-style-type: none;
     padding: 1rem;
@@ -41,7 +41,7 @@ ul{
 li{
     display: inline-block;
     /* background-color: red; */
-   margin-inline: 0.5rem;
+   /* margin-inline: 0.5rem;
     cursor: pointer;
     color: white;
 
@@ -49,12 +49,13 @@ li{
 
 li:hover, li:focus{
     text-decoration: underline ;
-}
+} */ 
 
-.left{
+/* .left{
     float: left;
     width: 20rem;
-    height: 20rem;
+ 
+   height: 20rem;
     background-color: #000;
     color: #fff;
 }
@@ -65,13 +66,12 @@ li:hover, li:focus{
     height: 20rem;
     background-color: #000;
     color: #fff;
-}
-
+} */
 /* .clear{
     clear: both;
 } */
 
-section{
+/* section{
  
     background-color: bisque;
     display: flow-root;
@@ -81,7 +81,7 @@ section{
    min-height: 20rem;
    display: flex;
    align-items: center;
-}
+} */
 
 /* 
 nav{
@@ -201,3 +201,33 @@ ul li::marker{
     font-size: 1.5rem;
     content: "👉 ";
 }  */
+
+
+
+/* css columns */
+.col{
+    columns: 4 250px;
+    column-gap: 1rem;
+    column-rule: 1px solid #000;
+    break-inside: avoid ;
+ 
+
+}
+
+.col .h{
+    
+    padding:1rem;
+    column-span: all;
+    text-align: center;
+    font-size: 3rem;
+
+
+}
+
+.col p:nth-child(even){
+    color: red;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
