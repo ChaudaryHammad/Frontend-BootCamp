@@ -51,6 +51,38 @@ li:hover, li:focus{
     text-decoration: underline ;
 }
 
+.left{
+    float: left;
+    width: 20rem;
+    height: 20rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.right{
+    float: right;
+    width: 20rem;
+    height: 20rem;
+    background-color: #000;
+    color: #fff;
+}
+
+/* .clear{
+    clear: both;
+} */
+
+section{
+ 
+    background-color: bisque;
+    display: flow-root;
+}
+
+.center-text{
+   min-height: 20rem;
+   display: flex;
+   align-items: center;
+}
+
 /* 
 nav{
     border: 2px solid #333;
