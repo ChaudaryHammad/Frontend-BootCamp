@@ -227,7 +227,7 @@ ul li::marker{
 
 
 /* css grid */
-body{
+/* body{
     min-height: 100vh;
 }
 .container{
@@ -264,4 +264,50 @@ body{
 
 .box:nth-child(2){
     background-color: purple;
+} */
+
+.hero{
+    border-bottom:2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(251,210,156);
+    background-image: url('/css/image/img1.jpg');
+    background-repeat: no-repeat;
+}
+.h1{
+    font-size: 500%;
+    color: #fff;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+
+}
+img{
+    display: block;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
 }
