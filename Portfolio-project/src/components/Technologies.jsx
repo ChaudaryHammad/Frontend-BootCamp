@@ -3,7 +3,7 @@ const Technologies = () => {
   return (
     <>
         <div className="border-b border-neutral-900 pb-10">
-        <h1 className="my-20 text-center text-4xl underline decoration-wavy decoration-yellow-700">My<span className="text-neutral-500 font-light"> Skills</span></h1>
+        <h1 className="my-20 text-center text-4xl underline decoration-wavy decoration-rose-500">My<span className="text-neutral-500 font-light"> Skills</span></h1>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="min-w-40 flex justify-center items-center flex-col rounded-2xl border-4 border-neutral-800 p-4">
