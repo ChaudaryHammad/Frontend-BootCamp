@@ -4,7 +4,7 @@ import {FaLinkedin, FaGithub, FaInstagram, FaKaggle} from 'react-icons/fa'
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 ">
+    <nav className=" mb-20 flex items-center justify-between py-6 ">
     <div className="flex flex-shrink-0 items-center">
         <h1 className='underline decoration-wavy decoration-orange-400 lg:text-4xl text-2xl font-bold mx-2'>Fkl</h1>
     </div>
