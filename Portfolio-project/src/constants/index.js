@@ -1,58 +1,68 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
 
-export const HERO_CONTENT = `Hello! I'm a passionate undergraduate student with a deep fascination for Artificial Intelligence and Machine Learning. I have experience in developing machine learning models, data analysis, and natural language processing. I am always eager to learn new technologies and apply them to real-world problems. I am currently seeking opportunities to work on challenging projects and collaborate with like-minded individuals.`;
+export const HERO_CONTENT = `As a recent graduate, I have built expertise in web development through practical experience and certifications, emphasizing responsive design and adherence to SOLID principles.`;
 
 export const ABOUT_TEXT = `
-I am a dedicated and versatile machine learning engineer with a passion for crafting intelligent systems and advancing computer vision capabilities. With 2 years of professional experience, I have delved into various domains, mastering technologies such as TensorFlow, PyTorch, scikit-learn, OpenCV, and many other python libraries. My journey in AI and machine learning sparked from a fascination with pattern recognition and data analysis, leading me to a career where I continuously push boundaries and embrace new methodologies. I excel in collaborative environments, leveraging my expertise to tackle intricate challenges and deliver innovative solutions. Beyond algorithms, I enjoy staying abreast of the latest research, experimenting with emerging techniques, and contributing to the open-source community`;
+I am a Frontend Developer with a strong focus on crafting interactive and responsive user interfaces using ReactJS, Tailwind CSS, and modern JavaScript. I leverage Framer Motion for creating sophisticated animations and transitions, enhancing the user experience with smooth, dynamic effects.
+
+Currently, I am expanding my skill set into backend development, gaining proficiency in Node.js and Express, and exploring MongoDB for database management. My work with the MERN stack allows me to build comprehensive, full-stack web applications that integrate frontend and backend seamlessly.
+My passion for open-source projects drives me to actively contribute to various initiatives, where I apply my knowledge and collaborate with the community to push the boundaries of technology. I stay engaged with the latest industry trends and innovations, continually learning and experimenting to deliver cutting-edge solutions in dynamic, collaborative environments.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Oct-2023 - Nov-2023 ",
+    role: "Interned as a Frontend Developer",
+    company: "IntersPak",
+    description: `Developed user interfaces for web applications using React.js and Tailwind CSS. Collaborated with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    technologies: ["Javascript", "React.js", "Express.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Oct-2023 - Nov-2023",
+    role: "Open Source Contributor",
+    company: "GitHub",
+    description: `Contributed to open-source projects on GitHub, collaborating with developers worldwide to enhance software functionality and resolve issues. Participated in Hactoberfest and coding challenges to develop innovative solutions and expand my skill set.`,
+    technologies: ["HTML", "CSS", "Reactjs", "Tailwind CSS"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
+
+
+
+
+export const EDUCATION = [
+  {
+    year: "Sep-2020 - Jul-2024 ",
+    role: "Bachelor's in Computer Science",
+    company: "COMSATS University Islamabad",
+    description: `Completed a comprehensive 4 year program in computer science, gaining expertise in software development, data structures, algorithms, and database management.`,
+   
+  },
+  
+];
+
+
+
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "AutoEssentials  - FYP",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Contributed to the development of a multi-vendor e-commerce platform using the MERN stack, connecting car owners with premium auto parts and integrating real-time CNN-based inspection tools to enhance safety and maintenance.",
+    technologies: ["React", "Node.js", "MongoDB","Express.js"],
+    link:""
   },
+  
   {
-    title: "Task Management App",
+    title: "Blogging Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "Developed a full-stack blogging application that allows users to create, edit, and publish blog posts, with features like user authentication, commenting, and post categorization.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link:""
   },
   {
     title: "Portfolio Website",
@@ -60,18 +70,21 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link:"https://hammad-portfolio-k4z9.vercel.app/"
   },
   {
-    title: "Blogging Platform",
+    title: "AgriCo Website Landing Page",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Designed a responsive landing page for an agricultural company, featuring product information, contact details, and a subscription form.",
+    technologies: ["HTML", "CSS", "JAvascript", ],
+    link:"https://chaudaryhammad.github.io/AgriCulture-Website/"
   },
+
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Burewala, Punjab, Pakistan",
+  phoneNo: "+92 314 6146 470 ",
+  email: "hammad.node@gmail.com",
 };
