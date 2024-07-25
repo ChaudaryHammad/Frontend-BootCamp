@@ -40,6 +40,30 @@ export const EDUCATION = [
     description: `I graduated with a Bachelor of Computer Science from COMSATS University Islamabad, Sahiwal Campus, in 2024. Throughout the rigorous 4-year program, I developed a solid foundation in software development, data structures, algorithms, and database management. My coursework and projects provided hands-on experience with modern programming languages and technologies, enhancing my problem-solving skills and collaborative abilities.`,
    
   },
+
+  {
+    year: "Jan-2024 - Feb-2024 ",
+    role: "Advanced Reactjs",
+    company: "Meta",
+    description: `Completed an advanced React.js course on Meta, focusing on advanced concepts like Redux, Context API, and React Hooks. Developed a portfolio website and a blogging application to apply the learned concepts and enhance my skills in frontend development.`,
+   link:"https://coursera.org/share/afcf917e8fc519c4b69fa8e5fd5f6ed8"
+  },
+
+  {
+    year: "Dec-2023 - Jan-2024 ",
+    role: "Developing Back-End Apps with Node.js and Express",
+    company: "IBM",
+    description: `Completed a course on developing backend applications with Node.js and Express on IBM, focusing on building RESTful APIs, integrating MongoDB databases, and deploying applications to cloud platforms. Developed a multi-vendor e-commerce platform as a final project to demonstrate my skills in backend development.`,
+   link:"https://coursera.org/share/8bd963052736acdee18ed6a6fbc1aaf0"
+  },
+
+  {
+    year: "Jan-2024 - Feb-2024 ",
+    role: "Introduction to MongoDB",
+    company: "MongoDB Inc.",
+    description: `Completed an introductory course on MongoDB on MongoDB Inc, focusing on database management, CRUD operations, and data modeling. Developed a blogging application with MongoDB as the database to apply the learned concepts and enhance my skills in database management.`,
+   link:"https://coursera.org/share/f073b3e60afee2f22639c8ec2c2f6730"
+  },
   
 ];
 
