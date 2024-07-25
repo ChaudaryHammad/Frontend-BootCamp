@@ -21,7 +21,7 @@ const Experience = () => {
              className="w-full max-w-xl lg:w-3/4">
             <h6 className='mb-2 font-semibold'>{data.role} - <span className='text-sm text-purple-300'>{data.company}</span></h6>
 
-            <p className='mb-4 text-neutral-400'>{data.description}</p>
+            <p className='mb-4 text-neutral-400 text-justify lg:text-left'>{data.description}</p>
             {
               data.technologies.map((data,index)=>{
                 return(
