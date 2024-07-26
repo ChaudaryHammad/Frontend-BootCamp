@@ -69,7 +69,7 @@ const Contact = () => {
                 style={{fontFamily:"Ubuntu Mono"}}
                   id="message"
                   name="message"
-                  className="w-[218px] lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
+                  className=" lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
                   placeholder="Message"
                   required
                 />
