@@ -38,6 +38,7 @@ const Contact = () => {
             <div className="flex items-center justify-center">
               <div className="relative">
                 <input
+                style={{fontFamily:"Ubuntu Mono"}}
                   id="name"
                   type="text"
                   name="name"
@@ -57,6 +58,7 @@ const Contact = () => {
                   className="lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
                   placeholder="Email"
                   required
+                  style={{fontFamily:"Ubuntu Mono"}}
                 />
                 <ValidationError prefix="Email" field="email" errors={state.errors} />
               </div>
@@ -64,6 +66,7 @@ const Contact = () => {
             <div className="mt-3 flex items-center justify-center">
               <div className="relative">
                 <textarea
+                style={{fontFamily:"Ubuntu Mono"}}
                   id="message"
                   name="message"
                   className="w-[218px] lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
@@ -73,7 +76,7 @@ const Contact = () => {
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
             </div>
-            <button
+            <button 
               type="submit"
               className="smky-btn3 relative hover:text-[#778464] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#e6e4f3] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-700"
               disabled={state.submitting}
@@ -94,14 +97,14 @@ const Contact = () => {
         >
           <div className="terminal-loader">
             <div className="terminal-header">
-              <div className="terminal-title">Status</div>
+              <div className="terminal-title" style={{fontFamily:"Ubuntu Mono"}}>Status</div>
               <div className="terminal-controls">
                 <div className="control close" />
                 <div className="control minimize" />
                 <div className="control maximize" />
               </div>
             </div>
-            <div className="text">Drop me a message ✉️</div>
+            <div className="text" style={{fontFamily:"Ubuntu Mono"}}>Drop me a message ✉️</div>
           </div>
         </motion.div>
       </div>
