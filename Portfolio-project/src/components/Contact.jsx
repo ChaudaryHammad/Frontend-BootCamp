@@ -42,7 +42,7 @@ const Contact = () => {
                   id="name"
                   type="text"
                   name="name"
-                  className="lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
+                  className="w-[200px] lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
                   placeholder="Name"
                   required
                 />
@@ -55,7 +55,7 @@ const Contact = () => {
                   id="email"
                   type="email"
                   name="email"
-                  className="lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
+                  className="w-[200px] lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
                   placeholder="Email"
                   required
                   style={{fontFamily:"Ubuntu Mono"}}
@@ -69,20 +69,23 @@ const Contact = () => {
                 style={{fontFamily:"Ubuntu Mono"}}
                   id="message"
                   name="message"
-                  className=" lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
+                  className=" w-[200px] lg:w-[500px] border-b border-gray-300 py-1 focus:border-b-2 transition-colors focus:outline-none peer bg-inherit"
                   placeholder="Message"
                   required
                 />
                 <ValidationError prefix="Message" field="message" errors={state.errors} />
               </div>
             </div>
-            <button 
-              type="submit"
-              className="smky-btn3 relative hover:text-[#778464] py-2 px-6 after:absolute after:h-1 after:hover:h-[200%] transition-all duration-500 hover:transition-all hover:duration-500 after:transition-all after:duration-500 after:hover:transition-all after:hover:duration-500 overflow-hidden z-20 after:z-[-20] after:bg-[#e6e4f3] after:rounded-t-full after:w-full after:bottom-0 after:left-0 text-gray-700"
-              disabled={state.submitting}
-            >
-              Send
-            </button>
+         
+<button className="bookmarkBt"  type="submit"   disabled={state.submitting}>
+  <span className="IconContaine">
+    <svg viewBox="0 0 512 512" height="0.9em" xmlns="http://www.w3.org/2000/svg" fill="#fff" className="ico">
+      <path d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" />
+    </svg>
+  </span>
+  <p className="tex">Send</p>
+</button>
+
             {state.succeeded && (
               <p className="mt-3 text-green-500">Thank you! Your message has been sent.</p>
             )}

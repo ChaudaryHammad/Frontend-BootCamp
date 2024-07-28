@@ -1,4 +1,4 @@
-import { BsGithub } from 'react-icons/bs'
+
 import aboutImg from '../assets/hamad2.jpg'
 import { ABOUT_TEXT } from '../constants'
 import {motion} from 'framer-motion'
