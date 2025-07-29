@@ -28,11 +28,11 @@ export const EXPERIENCES = [
   },
 
   {
-    year: "Oct-2023 - Nov-2023",
-    role: "Interned as a Frontend Developer",
-    company: "IntersPak",
-    description: `Developed user interfaces for web applications using React.js and Tailwind CSS. Collaborated with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["Javascript", "React.js", "Express.js", "mongoDB"],
+    year: "Dec-2024 - Mar-2025",
+    role: ".NET Intern",
+    company: "SDSol Technologies",
+    description: `Gained hands-on experience in backend development using the .NET Framework. Assisted in building APIs, understanding layered architecture, and applying concepts like dependency injection and unit of work. Collaborated with senior developers to build maintainable and scalable systems.`,
+    technologies: [".NET", "C#", "SQL Server", "ASP.NET", "Entity Framework"],
   },
   {
     year: "Oct-2023 - Nov-2023",
