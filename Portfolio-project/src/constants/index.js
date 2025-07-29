@@ -48,7 +48,7 @@ export const EDUCATION = [
     year: "Sep-2020 - Jul-2024 ",
     role: "Bachelor's in Computer Science",
     company: "COMSATS University Islamabad",
-    description: `I graduated with a Bachelor of Computer Science from COMSATS University Islamabad, Sahiwal Campus, in 2024. Throughout the rigorous 4-year program, I developed a solid foundation in software development, data structures, algorithms, and database management. My coursework and projects provided hands-on experience with modern programming languages and technologies, enhancing my problem-solving skills and collaborative abilities.`,
+    description: `I graduated with a Bachelor of Computer Science from COMSATS University Islamabad in 2024. Throughout the rigorous 4-year program, I developed a solid foundation in software development, data structures, algorithms, and database management. My coursework and projects provided hands-on experience with modern programming languages and technologies, enhancing my problem-solving skills and collaborative abilities.`,
   },
 
   {
